@@ -46,6 +46,17 @@ body {
 	background-clip: padding-box;
 	
 }
+.titulos{
+	background:rgba(0,0,0,0.5) ;
+	width: 75%;
+	padding: 2px;
+}
+.textos{
+background:rgba(0,0,0,0.5) ;
+padding: 2px;
+margin-top: 10px;
+}
+
 /* start header */
 .header_bg{
 	background: #ffffff;
@@ -55,9 +66,16 @@ body {
 }
 .logo{
 	float: left;
+	background:#E0E3C1;
+	border-radius: 35px 35px 35px 35px;
 }
 .logo h1 a{
 	display: block;
+}
+.logo h1 a img {
+	width: 400px;
+	height: 150px;
+
 }
 .h_right{
 	position:relative;
@@ -247,14 +265,15 @@ body {
 	float: left;
 }
 .h_left h2{
-	font-size: 1.5em;
-	color: #c0c0c0;
+	font-size: 3em;
+	color:#262626;
 	font-weight: 400;
+	text-shadow: 2px 2px 2px #262626;
 }
 .h_left h3{
 	margin-top: 10px;
-	font-size: 0.8725em;
-	color: #c0c0c0;
+	font-size: 2em;
+	color: #262626;
 }
 /* start soc_icons */
 .soc_icons {
@@ -263,7 +282,7 @@ body {
 .soc_icons h2{
 	text-transform: uppercase;
 	font-size: 1.2em;
-	color: #c0c0c0;
+	color:#4E4E4E;
 	font-weight: 400;
 	margin-bottom: 10px;
 }
@@ -530,14 +549,16 @@ color: #D85F0E;
 }
 .span1_of_4 h4{
 	font-size: 1.2em;
-	color: #c0c0c0;
+	color:#C0BEBE;
 	text-transform: uppercase;
-	font-weight: 600;
+	font-weight: bold;
 	margin-bottom: 8%;
+	text-shadow: 5px 5px 5px #000;
+	text-align: center;
 }
 .span1_of_4 p{
 	font-size: 0.8725em;
-	color: #a9a9a9;
+	color:#FFFFFF;
 	line-height:1.8em;
 	font-weight: 400;
 }
@@ -545,12 +566,12 @@ color: #D85F0E;
 	margin-top: 4%;
 }
 .span1_of_4 span.bg{
-	background: #ECF0F1;
+	background:#F0D2A1;
 	padding: 4%;
 }
 .span1_of_4 span{
 	font-size: 1em;
-	color: #a0a0a0;
+	color: #252424;
 	margin-top: 8%;
 	display: block;
 	line-height:1.5em;
@@ -1509,6 +1530,14 @@ span.tab-img{
 	font-style: italic;
 	color: black;
 }
+.filtros{
+	  background-color:#5E1F1F;
+	  padding-top: 10px;
+	  width: 70%;
+	  margin-left: auto;
+	  margin-right: auto;
+	  border-radius: 35px 35px 35px 35px;
+	}
 /***** Media Quries *****/
 @media only screen and (max-width: 1366px) {
 	.wrap{
